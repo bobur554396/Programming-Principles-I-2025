@@ -2,12 +2,9 @@
 
 Welcome to the official repository for **Programming Principles I (CSCI1103)** at **Kazakh-British Technical University (KBTU)**.
 
-> ⚠️ This repository is intended **only for students of Bobur Mukhsimbayev**, as the examples will be discussed during offline lectures at the university.
-
 This repository contains lecture code examples, hands-on demos, and notes to support your understanding of core programming concepts in C++.
 
-
-## 📘 Course Overview
+## Course Overview
 
 The course introduces foundational programming principles using the C++ language. Key areas include:
 
@@ -19,7 +16,9 @@ The course introduces foundational programming principles using the C++ language
 
 No prior programming experience is required.
 
-## 🧑‍🏫 Maintainer
+# Student Resources
 
-**Bobur Mukhsimbayev**  
-📧 b.mukhsimbaev@kbtu.kz
+Here are guides to help you work with the terminal and compile C++ code:
+
+- [Terminal Basics Guide](<terminal basics.md>)  
+- [C++ Compilation Guide](<cpp compile guide.md>)
