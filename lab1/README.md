@@ -1,4 +1,4 @@
-# 🧪 Lab 1
+# Lab 1
 
 ## 1. Objective
 
@@ -45,7 +45,7 @@ After setting up your environment, go to the online judge system and solve the r
 - Submit only `.cpp` files that compile and run without errors
 ---
 
-## 4. Deliverables
+## 4. What You Must Complete?
 
 To pass this lab:
 

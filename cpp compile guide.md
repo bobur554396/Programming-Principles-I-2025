@@ -52,7 +52,7 @@ sudo apt install g++
 
 ---
 
-## 🍏 macOS
+## 🍏 Mac OS
 
 > ✅ First-time setup may require installing command line tools:
 ```bash
