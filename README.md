@@ -1,4 +1,4 @@
-# Programming Principles I – Fall 2025
+# Programming Principles I
 
 Welcome to the official repository for **Programming Principles I (CSCI1103)** at **Kazakh-British Technical University (KBTU)**.
 
