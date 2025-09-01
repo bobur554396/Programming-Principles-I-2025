@@ -54,6 +54,7 @@ After setting up your environment, go to the online judge system and solve the r
 
 To pass this lab:
 
+- ✅ Read carefully [Lecture notes](./lecture-notes.md) and practice each part
 - ✅ Demonstrate local compilation and execution of a test `.cpp` program
 - ✅ Solve tasks successfully on [ejudge.kz](http://ejudge.kz/new-client?contest_id=1)
 
