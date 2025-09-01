@@ -86,7 +86,6 @@ type variableName = value;
 
 In **C++**, variable names (also called *identifiers*) must follow specific rules to be valid.
 
----
 
 ### Allowed Characters
 
@@ -94,7 +93,6 @@ In **C++**, variable names (also called *identifiers*) must follow specific rule
 - **Digits**: `0–9` (but **not as the first character**)
 - **Underscore**: `_`
 
----
 
 ### Rules for Naming Variables
 
@@ -111,7 +109,6 @@ In **C++**, variable names (also called *identifiers*) must follow specific rule
 4. **Case-sensitive**
    - `Value` and `value` are different variables in C++
 
----
 
 ### 🚫 Invalid Examples
 
@@ -123,7 +120,6 @@ In **C++**, variable names (also called *identifiers*) must follow specific rule
 | `total$`      | Dollar sign (`$`) not allowed |
 | `user name`   | Contains space                |
 
----
 
 ### Valid Examples
 
@@ -134,7 +130,6 @@ char firstLetter;
 bool _isReady;
 int MAX_VALUE1;
 ```
----
 
 ### Example with initial values
 
