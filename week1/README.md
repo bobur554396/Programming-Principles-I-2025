@@ -4,6 +4,8 @@
 
 This lab helps students prepare their development environment and learn how to compile and run C++ programs via terminal. The second part focuses on solving basic problems in the **ejudge** system.
 
+- **[Lecture notes](./lecture-notes.md)**
+
 ---
 
 ## 2. Tasks
