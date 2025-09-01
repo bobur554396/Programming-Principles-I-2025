@@ -9,7 +9,7 @@ A **program** is a list of instructions written by a human to be executed by a c
 
 ---
 
-## Human Language → Machine Language
+### Human Language → Machine Language
 
 To convert programming languages into machine code, we use **translators**:
 
@@ -25,9 +25,8 @@ To convert programming languages into machine code, we use **translators**:
 - Examples of interpreted languages:  
   `Python`, `Ruby`, `JavaScript`
 
----
 
-## Programming Languages Overview
+### Programming Languages Overview
 
 ### High-Level Languages
 
@@ -49,9 +48,8 @@ To convert programming languages into machine code, we use **translators**:
 - Example:  
   `Assembly`
 
----
 
-## About C++
+### About C++
 
 - **C++** is a **compiled**, mid-level programming language
 - Uses a **compiler**: `MinGW g++`
