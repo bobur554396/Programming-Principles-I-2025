@@ -7,7 +7,6 @@ A **program** is a list of instructions written by a human to be executed by a c
 - Computers understand **machine code**: a binary language of `0` and `1`
 - Humans need tools to translate their instructions into machine code, they are - programming languages 
 
----
 
 ### Human Language → Machine Language
 
@@ -142,8 +141,6 @@ bool isOnline = true;
 ## 3. Arithmetic Operations
 
 Arithmetic operations allow you to perform mathematical calculations using variables and constants in C++.
-
----
 
 ### Basic Arithmetic Operators
 
@@ -446,7 +443,6 @@ It is a character encoding standard that assigns **numeric values (0–127)** to
 
 In C++, `char` values are stored as **integers** behind the scenes — using their ASCII values.
 
----
 
 ### ASCII Table (Common Characters)
 
@@ -463,6 +459,7 @@ In C++, `char` values are stored as **integers** behind the scenes — using the
 
 > Full ASCII table includes control characters, symbols, and more.
 
+![Full ASCII Table](./img/ascii-table.jpg)
 
 ### How C++ Handles `char` and ASCII
 
