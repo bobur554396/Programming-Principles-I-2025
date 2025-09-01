@@ -1,12 +1,5 @@
 # Lecture 1 — Introduction to Programming and C++
 
-**Instructor:** Bobur Mukhsimbayev  
-**Email:** b.mukhsimbaev@kbtu.kz  
-**Room:** 184  
-**Chat time via MS Teams:** 10:00 – 20:00
-
----
-
 ## 🧩 What is a Program?
 
 A **program** is a list of instructions written by a human to be executed by a computer.
