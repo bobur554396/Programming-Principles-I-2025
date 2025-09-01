@@ -455,7 +455,6 @@ In C++, `char` values are stored as **integers** behind the scenes — using the
 | `'0'`     | `48`        |
 | `'9'`     | `57`        |
 | `' '`     | `32` (space)|
-| `'\n'`    | `10` (newline)|
 
 > Full ASCII table includes control characters, symbols, and more.
 
