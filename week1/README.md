@@ -1,8 +1,10 @@
-# Lab 1
+# Week 1
 
 ## 1. Objective
 
-This lab helps students prepare their development environment and learn how to compile and run C++ programs via terminal. The second part focuses on solving basic problems in the **ejudge** system.
+This week's objective is to introduce students to the basics of programming, focusing on the concept of how humans communicate with computers through programming languages. Students will also learn how to prepare their **C++ development environment**, write simple programs, and understand the foundational building blocks of the language.
+
+In addition, students will become familiar with compiling and running C++ programs via the **terminal** and get introduced to the **Ejudge** system, which will be used for submitting and testing assignments throughout the course.
 
 - **[Lecture notes](./lecture-notes.md)**
 
