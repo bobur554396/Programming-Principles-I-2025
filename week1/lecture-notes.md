@@ -155,6 +155,7 @@ Arithmetic operations allow you to perform mathematical calculations using varia
 > 🧠 **Note**:  
 > `/` performs **integer division** if both operands are integers (no decimal point).
 
+![Operators](./img/operators.jpeg)
 
 ### Example Code
 
