@@ -29,15 +29,15 @@ After setup, test compilation:
 
 ---
 
-## 🐧 Linux
+## 🍏 Mac OS
 
-> ✅ Most Linux distributions come with `g++` pre-installed. If not, install it using:
+> ✅ First-time setup may require installing command line tools:
 ```bash
-sudo apt install g++
+xcode-select --install
 ```
 
-1. Open the terminal  
-2. Navigate to your C++ file location:
+1. Open the Terminal  
+2. Navigate to your project folder:
    ```bash
    cd ~/your/folder/
    ```
@@ -52,15 +52,15 @@ sudo apt install g++
 
 ---
 
-## 🍏 Mac OS
+## 🐧 Linux
 
-> ✅ First-time setup may require installing command line tools:
+> ✅ Most Linux distributions come with `g++` pre-installed. If not, install it using:
 ```bash
-xcode-select --install
+sudo apt install g++
 ```
 
-1. Open the Terminal  
-2. Navigate to your project folder:
+1. Open the terminal  
+2. Navigate to your C++ file location:
    ```bash
    cd ~/your/folder/
    ```
