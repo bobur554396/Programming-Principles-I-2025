@@ -25,6 +25,7 @@ To convert programming languages into machine code, we use **translators**:
 - Examples of interpreted languages:  
   `Python`, `Ruby`, `JavaScript`
 
+--- 
 
 ### Programming Languages Overview
 
@@ -63,7 +64,6 @@ A **variable** is a named storage location in memory that holds a value which ca
 
 Think of a variable as a **container** that stores data — such as a number, a letter, or a word — so that you can refer to it by name in your code.
 
----
 
 ### Declaration Syntax
 
@@ -79,7 +79,6 @@ You can also assign a value at the time of declaration:
 type variableName = value;
 ```
 
----
 ## Allowed Characters and Rules for Variable Names in C++
 
 In **C++**, variable names (also called *identifiers*) must follow specific rules to be valid.
@@ -206,7 +205,6 @@ float result = 5.0 / 2; // result = 2.5
 
 In C++, **assigning a value** means storing a specific piece of data into a variable using the **assignment operator** (`=`).
 
----
 
 ### Basic Syntax
 
@@ -221,7 +219,6 @@ int x;
 x = 10;
 ```
 
----
 
 ### Assignment Operator `=`
 
@@ -234,7 +231,6 @@ a = 10;      // a is updated to hold 10
 
 > ⚠️ Note: This is not an equality check. It’s a one-way assignment.
 
----
 
 ### Reassigning Values
 
@@ -255,7 +251,6 @@ score /= 2;  // score = score / 2
 score %= 4;  // score = score % 4
 ```
 
----
 
 ### Example Code
 
@@ -281,7 +276,6 @@ int main() {
 }
 ```
 
----
 
 ### ⚠️ Common Mistakes
 
@@ -320,7 +314,6 @@ In C++, every variable must be declared with a **data type**, which tells the co
 
 Data types are a **core part** of the language and help C++ be fast and type-safe.
 
----
 
 ### Common Data Types in C++
 
@@ -335,7 +328,6 @@ Data types are a **core part** of the language and help C++ be fast and type-saf
 
 > Sizes can vary slightly depending on your system and compiler, but these are typical for 64-bit systems using GCC or Clang.
 
----
 
 ### How to Check Data Type Size
 
@@ -356,7 +348,6 @@ int main() {
 }
 ```
 
----
 
 ### Syntax Examples
 
@@ -369,7 +360,6 @@ bool isLoggedIn = true;
 string name = "Alice";
 ```
 
----
 
 ### Type Details
 
@@ -400,7 +390,6 @@ string name = "Alice";
 - Defined in the `<string>` header
 - Many built-in functions like `.length()`, `.substr()`, `.find()`
 
----
 
 ### Example Program
 
@@ -430,7 +419,6 @@ int main() {
 }
 ```
 
----
 
 ### ⚠️ Common Mistakes
 
@@ -475,7 +463,6 @@ In C++, `char` values are stored as **integers** behind the scenes — using the
 
 > Full ASCII table includes control characters, symbols, and more.
 
----
 
 ### How C++ Handles `char` and ASCII
 
@@ -495,7 +482,6 @@ int code = 66;
 cout << (char)code; // Output: B
 ```
 
----
 
 ### Example Program
 
@@ -529,7 +515,6 @@ To use these functions, you must include the following header:
 #include <cmath>
 ```
 
----
 
 ### Common Math Functions
 
@@ -544,7 +529,6 @@ To use these functions, you must include the following header:
 
 > ⚠️ Most of these functions work with `double` values. Cast as needed if you're using `int`.
 
----
 
 ### Example Program
 
@@ -569,7 +553,6 @@ int main() {
 }
 ```
 
----
 
 ### ⚠️ Common Mistakes
 
