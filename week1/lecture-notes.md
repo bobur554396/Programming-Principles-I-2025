@@ -158,7 +158,6 @@ Arithmetic operations allow you to perform mathematical calculations using varia
 > 🧠 **Note**:  
 > `/` performs **integer division** if both operands are integers (no decimal point).
 
----
 
 ### Example Code
 
@@ -200,6 +199,7 @@ int result = 5 / 2; // result = 2 (not 2.5)
 ```cpp
 float result = 5.0 / 2; // result = 2.5
 ```
+---
 
 ## 4. Assigning Values
 
