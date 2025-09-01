@@ -8,10 +8,9 @@
 
 ---
 
+Welcome to the repository for **Programming Principles I (CSCI1103)** – Lecture Notes and Example Code – taught as part of the **School of IT and Engineering** at **Kazakh-British Technical University (KBTU)**.
 
-Welcome to the official repository for **Programming Principles I (CSCI1103)** offered by the **School of IT and Engineering** at **Kazakh-British Technical University (KBTU)**.
-
-This course introduces the fundamental concepts of programming using the **C++** language. It is designed for first-year students with **no prior programming experience**. Through hands-on labs, quizzes, and guided examples, students will learn to write, compile, debug, and structure real-world C++ programs.
+This repository contains lecture-related **example code, practical snippets, and concept explanations** designed to support students enrolled in this course. It serves as a companion resource to weekly lectures and labs.
 
 ## Course Overview
 
