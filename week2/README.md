@@ -69,19 +69,19 @@ They return a **boolean result** (`true` or `false`).
 
 ```cpp
 #include <iostream>
-#include <string>
+
 using namespace std;
 
 int main() {
     int age = 20;
-    double balance = 150.75;
+    double balance = 300;
     string password = "kbtu123";
 
     // Check if a student is old enough to register
     cout << (age >= 18) << endl;   // true (1)
 
-    // Check if user has enough money for a bus ticket
-    cout << (balance >= 100.0) << endl;   // true (1)
+    // Check if user has enough money (tenge) for a bus ticket
+    cout << (balance >= 150.0) << endl;   // true (1)
 
     // Check if entered password is correct
     cout << (password == "kbtu123") << endl;  // true (1)
@@ -92,6 +92,47 @@ int main() {
 
     return 0;
 }
+```
+
+---
+
+## Multiple Conditions as One Result  
+
+In C++, you can combine multiple comparisons into a **single logical expression**.  
+This is useful when you want to check **several rules at the same time**.  
+
+| Operator | Meaning            | Example Code             | Result |
+|----------|--------------------|--------------------------|--------|
+| `&&`     | AND (all must be true) | `(age >= 18 && age < 65)` | true if age is between 18 and 64 |
+| `\|\|` | OR (at least one true) | `(score > 90 \|\| bonus > 0)` | true if either condition is satisfied |
+| `!`      | NOT (negation)        | `!(x == 0)`             | true if `x` is not 0 |
+
+
+```cpp
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main() {
+    int age = 20;
+    double balance = 50.0;
+    string password = "kbtu123";
+
+    // Check if student is eligible to register (between 18 and 30)
+    cout << (age >= 18 && age <= 30) << endl;   // true (1)
+
+    // Check if user can travel (enough money OR has a student discount)
+    bool hasStudentCard = true;
+    cout << (balance >= 100.0 || hasStudentCard) << endl;   // true (1)
+
+    // Check if entered password is NOT empty
+    cout << (!password.empty()) << endl;   // true (1)
+
+    return 0;
+}
+```
+
 
 ---
 
@@ -200,6 +241,9 @@ cout << text.substr(0, 4) << endl; // "Prog" (substring)
 
 ## 7. Loop Operators
 
+Loops allow us to **repeat code** multiple times without writing it again and again.  
+C++ provides three main loop types: `for`, `while`, and `do while`.
+
 ### For Loop
 Best when you know the number of iterations in advance.
 
@@ -236,10 +280,10 @@ while (condition) {
 }
 
 // Example:
-int count = 0;
-while (count < 5) {
-    cout << "Count: " << count << endl;
-    count++;
+int balance = 100;
+while (balance > 0) {
+    cout << "Remaining balance: " << balance << endl;
+    balance -= 30; // spend money
 }
 ```
 
@@ -252,11 +296,13 @@ do {
 } while (condition);
 
 // Example:
-int count = 0;
+int password;
 do {
-    cout << "Count: " << count << endl;
-    count++;
-} while (count < 5);
+    cout << "Enter password: ";
+    cin >> password;
+} while (password != 1234);
+
+cout << "Access granted!" << endl;
 ```
 
 ---
@@ -287,7 +333,7 @@ for (int i = 0; i < 10; i++) {
 }
 ```
 
-### Practical Examples
+### Examples
 ```cpp
 // Finding first even number greater than 10
 int num = 11;
