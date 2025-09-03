@@ -1,4 +1,4 @@
-# Lecture 2: Variables, Data Types, and Loops
+# Lecture 2: Variables, Data Types and Loops
 
 ## 1. Variables and Data Types
 
