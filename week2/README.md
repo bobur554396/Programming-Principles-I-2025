@@ -35,9 +35,6 @@ string name = "Bob";
 - **XOR (^)**: Returns true if exactly one condition is true (exclusive or)
 - **NOT (!)**: Reverses the boolean value
 
-### Truth Tables
-![Truth table](img/bitwise-truth-table.jpeg)
-
 ### Examples
 ```cpp
 bool a = true, b = false;
@@ -132,7 +129,6 @@ int main() {
     return 0;
 }
 ```
-
 
 ---
 
