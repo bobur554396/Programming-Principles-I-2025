@@ -65,7 +65,7 @@ They return a **boolean result** (`true` or `false`).
 | `<=`     | Less or equal to     | `4 <= 9`     | `true` |
 
 
-### Real-life examples in C++
+### Real-life examples
 
 ```cpp
 #include <iostream>
