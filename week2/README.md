@@ -52,20 +52,46 @@ cout << (!a) << endl;      // 0 (false)
 ## 3. Logical Comparisons
 
 ### Comparison Operators
-- **==**: Equal to
-- **!=**: Not equal to
-- **>**: Greater than
-- **<**: Less than
-- **>=**: Greater than or equal to
-- **<=**: Less than or equal to
+Comparison operators are used to compare two values.  
+They return a **boolean result** (`true` or `false`).  
 
-### Examples
+| Operator | Meaning              | Example Code | Result |
+|----------|----------------------|--------------|--------|
+| `==`     | Equal to             | `5 == 5`     | `true` |
+| `!=`     | Not equal to         | `7 != 3`     | `true` |
+| `>`      | Greater than         | `10 > 2`     | `true` |
+| `<`      | Less than            | `8 < 6`      | `false` |
+| `>=`     | Greater or equal to  | `3 >= 3`     | `true` |
+| `<=`     | Less or equal to     | `4 <= 9`     | `true` |
+
+
+### Real-life examples in C++
+
 ```cpp
-int x = 10, y = 20;
-bool result1 = (x == y);    // false
-bool result2 = (x < y);     // true
-bool result3 = (x >= 10);   // true
-```
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    int age = 20;
+    double balance = 150.75;
+    string password = "kbtu123";
+
+    // Check if a student is old enough to register
+    cout << (age >= 18) << endl;   // true (1)
+
+    // Check if user has enough money for a bus ticket
+    cout << (balance >= 100.0) << endl;   // true (1)
+
+    // Check if entered password is correct
+    cout << (password == "kbtu123") << endl;  // true (1)
+
+    // Check if two exam scores are not equal
+    int score1 = 85, score2 = 90;
+    cout << (score1 != score2) << endl;  // true (1)
+
+    return 0;
+}
 
 ---
 
