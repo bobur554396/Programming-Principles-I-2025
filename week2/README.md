@@ -27,26 +27,7 @@ string name = "Bob";
 
 ---
 
-## 2. Logical Operators
-
-### Basic Logical Operators
-- **AND (&&)**: Returns true only if both conditions are true
-- **OR (||)**: Returns true if at least one condition is true  
-- **XOR (^)**: Returns true if exactly one condition is true (exclusive or)
-- **NOT (!)**: Reverses the boolean value
-
-### Examples
-```cpp
-bool a = true, b = false;
-cout << (a && b) << endl;  // 0 (false)
-cout << (a || b) << endl;  // 1 (true)
-cout << (a ^ b) << endl;   // 1 (true)
-cout << (!a) << endl;      // 0 (false)
-```
-
----
-
-## 3. Logical Comparisons
+## 2. Logical Comparisons
 
 ### Comparison Operators
 Comparison operators are used to compare two values.  
@@ -93,6 +74,25 @@ int main() {
 
 ---
 
+## 3. Logical Operators
+
+### Basic Logical Operators
+- **AND (&&)**: Returns true only if both conditions are true
+- **OR (||)**: Returns true if at least one condition is true  
+- **XOR (^)**: Returns true if exactly one condition is true (exclusive or)
+- **NOT (!)**: Reverses the boolean value
+
+### Examples
+```cpp
+bool a = true, b = false;
+cout << (a && b) << endl;  // 0 (false)
+cout << (a || b) << endl;  // 1 (true)
+cout << (a ^ b) << endl;   // 1 (true)
+cout << (!a) << endl;      // 0 (false)
+```
+
+---
+
 ## Multiple Conditions as One Result  
 
 In C++, you can combine multiple comparisons into a **single logical expression**.  
@@ -124,7 +124,7 @@ int main() {
     cout << (balance >= 100.0 || hasStudentCard) << endl;   // true (1)
 
     // Check if entered password is NOT empty
-    cout << (!password.empty()) << endl;   // true (1)
+    cout << (!(password == "")) << endl;   // true (1)
 
     return 0;
 }
