@@ -1,4 +1,4 @@
-# C++ Fundamentals Programming Examples
+# Lecture Examples
 
 ## hello.cpp
 Basic "Hello, World!" program - prints greeting message
