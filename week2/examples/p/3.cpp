@@ -11,7 +11,7 @@ int main() {
     7
     0
     
-    1 + 2 + 3 + 7 = 12
+    0 + 1 + 2 + 3 + 7 = 12
     */
 
     int a, sum = 0;
@@ -20,7 +20,7 @@ int main() {
         if(a == 0) 
             break;        
         
-        sum += a; // sum = sum + a
+        sum += a; // sum = sum + a;
     }
 
     cout << sum << endl;

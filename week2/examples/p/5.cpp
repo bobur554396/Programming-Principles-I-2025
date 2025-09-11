@@ -4,11 +4,11 @@ using namespace std;
 
 int main() {
     /*
-    - [ ] show list of divisors of n
-    7 -> 1, 7
-    10 -> 1, 2, 5, 10
-    13 -> 1, 13
-    12 -> 1, 2, 3, 4, 6, 12
+    - [ ] show list of divisors of n. Range: [1..n]
+    7 -> 1 7
+    10 -> 1 2 5 10
+    13 -> 1 13
+    12 -> 1 2 3 4 6 12
     */
     int n;
     cin >> n;

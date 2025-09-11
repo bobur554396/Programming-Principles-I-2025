@@ -17,11 +17,14 @@ int main() {
     int n;
     cin >> n; // 123
 
-    cout << n % 10 << " "; // 3
+    int a1 = n % 10; // 3
     n = n / 10; // n = 12
-    cout << n % 10 << " "; // 2
+    int a2 = n % 10; // 2
     n = n / 10; // n = 1
-    cout << n % 10 << " "; // 1
+    int a3 = n % 10; // 1
+    n = n / 10; // n = 0
+
+    cout << a1 + a2 + a3 << endl;
     
 
     return 0;

@@ -4,26 +4,25 @@ using namespace std;
 
 int main() {
     /*
-    - [ ] Show digits from given string
+    - [ ] string: number of words
 
     input:
-    He3l1l4o
+    Hello, world! This is KBTU.
 
     output:
-    314
+    5
     */
     string s;
-    cin >> s;
+    getline(cin, s);
 
-    // cout << s[0] << endl;
-    // cout << s[s.length() - 1] << endl;
-    // cout << s.length() << endl;
+    int cnt = 0;
     for(int i = 0; i < s.length(); i++){
-        int code = (int)s[i];
-        if(code >= 48 && code <= 57){
-            cout << s[i];
+        if(s[i] == ' '){
+            cnt++;
         }
     }
+    cout << cnt + 1 << endl;
+
 
     
 
