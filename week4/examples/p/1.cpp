@@ -5,10 +5,12 @@ using namespace std;
 int main(){
 
     /*
-    Cout number of 1's from given bin value.
+    Count number of 1's from given bin value.
 
     in:
     "0101" => '0'  '1'  '0'   '1'
+
+    1010101010101100101010 
 
     out:
     2
@@ -16,7 +18,7 @@ int main(){
     0111
     3
     */
-    int s; 
+    string s; 
     cin >> s; // "0101"
 
     // cout << s << endl << s.length() << endl;
